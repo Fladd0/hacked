@@ -1,0 +1,73 @@
+body {
+    background-image: url('https://i.hizliresim.com/g6aa7R.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.yazı {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-shadow: black;
+    position: relative;
+    z-index: 1; 
+}
+
+.yazı h1, .yazı h2 {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.yazı h1 {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.yazı h2 {
+    margin-top: 10px;
+}
+.yazı p {
+    font-size: 30px;
+}
+.yazı p #red {
+    color: red;
+}
+.yazı p #cyan {
+    color: cyan;
+}
+.yazı p #purple {
+    color: purple;
+}
+.yazı p #green {
+    color: green;
+}
+
+.yazı h1, .yazı h2 , .font {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.yazı a img {
+    width: 10%;
+    height: 10%;
+    padding-top: 20px;
+}
+
+.canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
